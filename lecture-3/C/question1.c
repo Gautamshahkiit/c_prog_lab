@@ -2,6 +2,7 @@
 #include<math.h>
 
 #define printf __mingw_printf
+//mingw has an error issue so we used printf __mingw_printf
 int main(){
 	char a='x';
 	short int b=10;
