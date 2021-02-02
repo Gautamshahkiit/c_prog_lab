@@ -5,9 +5,9 @@
 //mingw has an error issue so we used printf __mingw_printf
 int main(){
 	char a='x';
-	short int b=10;
+	short int b=20;
 	int c=8;
-	long d=12;
+	long d=10;
 	long long e=22;
 	float f=0.5;
 	double g=0.64535;
