@@ -4,7 +4,7 @@
 #define printf __mingw_printf
 int main(){
 	char a='x';
-	short int b=10;
+	short int b=11;
 	int c=8;
 	long d=12;
 	long long e=22;
