@@ -3,7 +3,7 @@ int main(){
 	float a;
 	printf("enter any real number till 4 significant decimal places\n");
 	scanf("%f",&a);
-	int p1,ld,d1,x,y;
+	int p1,ld,d1,x;
 	d1=a*10000;
 	x=d1;
 	p1=x/100;
