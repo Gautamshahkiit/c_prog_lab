@@ -4,8 +4,8 @@ int main(){
     float i,sum=0;
     printf("Enter an integer:\n");
     scanf("%d",&n);
-    for(i=1; i<=n; i+=2){
-        sum=sum+(i/(i+2));
+    for(i=1; i<=n; i++){
+        sum = sum + (((4 * i) - 3) / ((4 * i) - 1));
     }
     printf("%f",sum);
     return 0;

@@ -11,7 +11,7 @@ int main(){
 			break;
 		}
 	}
-	if(i==n){
+	if(i==n || n==2){
 		printf("%d is a prime number.",n);
 	}
 	else{
@@ -19,4 +19,4 @@ int main(){
 	}
 	return 0;
 }
-//this code doesn't work for 0,1 & 2. we know their results, it's obvious.
+//this code doesn't work for 0. we know its result, it's obvious.
